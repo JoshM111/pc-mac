@@ -1,0 +1,49 @@
+
+#header{
+background-color: #d4d2ae;
+padding: 10px;
+width: 1400px;
+height: 140px;
+
+}
+#header h1{
+text-align: center;
+font-size: 80px;
+}
+#header img{
+width: 10%;
+height: auto;
+background-color: white;
+
+}
+
+.container{
+padding: 10px;
+width: 1400px;
+height: auto;
+background-color: #d4d2ae;
+
+}
+.row1, .row2, .row3, .row4{
+content: "";
+display: table;
+clear: both;
+padding: 5px;
+
+}
+.column{
+float: left;
+width: 15%;
+height: auto;
+padding: 15px;
+margin: 15px;
+display: inline-block;
+
+}
+.column img{
+outline: 5px solid black;
+outline-offset: 0px;
+width: 220px;
+height: 220px;
+
+}
